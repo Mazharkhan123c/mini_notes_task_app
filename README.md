@@ -43,12 +43,14 @@ lib/
  │
  └── main.dart
 
-🧠 State Management
+```text
+
+## 🧠 State Management
 
 This project uses Provider because it is lightweight and ideal for small to medium-sized apps.
 Provider ensures clean separation between UI and business logic, making the code modular and testable.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Flutter (Material 3)
 
