@@ -25,7 +25,7 @@ class _NotesScreenState extends State<NotesScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Mini Notes Viewer (MVVM)"),
+        title: const Text("Mini Notes Viewer"),
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),

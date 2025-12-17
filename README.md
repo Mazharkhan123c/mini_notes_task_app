@@ -1,19 +1,118 @@
-# mini_notes_task_app
+📒 Mini Notes Viewer — Flutter App
 
-A new Flutter project.
+A clean and minimal Flutter application built as part of Artificizen’s Flutter Assignment.
+This app demonstrates clean architecture, async programming, error handling, and state management using Provider.
 
-## Getting Started
+🚀 Features
 
-This project is a starting point for a Flutter application.
+Fetches notes from a simulated service
 
-A few resources to get you started if this is your first Flutter project:
+Artificial delay (1–2 seconds)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+20% chance of simulated failure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Handles all app states:
+
+✅ Loading
+
+❌ Error + Retry
+
+📄 Notes list
+
+Refresh button in AppBar
+
+Clean project structure
+
+Responsive UI with Material 3
+
+📁 Project Structure
+lib/
+├── core/
+│ └── theme/
+│ └── app_theme.dart
+│
+├── models/
+│ └── note.dart
+│
+├── services/
+│ └── notes_service.dart
+│
+├── providers/
+│ └── notes_provider.dart
+│
+├── screens/
+│ └── notes_screen.dart
+│
+├── widgets/
+│ └── note_tile.dart
+│
+└── main.dart
+
+🧠 State Management
+
+This project uses Provider because it is lightweight and ideal for small to medium-sized apps.
+Provider gives clean separation between UI and business logic, making the code modular and testable.
+
+🛠️ Tech Used
+
+Flutter (Material 3)
+
+Provider (State Management)
+
+Dart
+
+📸 Screenshots
+
+assets/screenshots/loading.jpeg
+assets/screenshots/error.jpeg
+assets/screenshots/list.jpeg
+
+🧪 How to Run
+
+Clone the repository:
+
+git clone https://github.com/Mazharkhan123c/mini_notes_task_app.git
 
 
-Created project
+Move into the project folder:
+
+cd mini_notes_viewer
+
+
+Install packages:
+
+flutter pub get
+
+
+Run:
+
+flutter run
+
+📄 Assignment Requirement Summary
+
+This application was built according to the Artificizen Flutter assessment requirements:
+
+Simulated notes service
+
+Artificial delay
+
+Random failure simulation
+
+Clear loading, error, and notes UI
+
+Refresh capability
+
+State management with clean architecture
+
+📘 Submission Explanation
+
+I used Provider for state management because it is lightweight, easy to understand, and well-suited for small to medium-sized Flutter applications.
+The app handles loading, success, and error states using a centralized provider, allowing the UI to react automatically to state changes.
+A simulated notes service was implemented with an artificial delay and a random failure mechanism to mimic real-world API behavior.
+Error states are displayed with a clear message and a retry option, ensuring a smooth user experience.
+Additionally, the project follows a clean and modular structure with centralized theming using Material 3 for better maintainability and scalability.
+
+👨‍💻 Author
+
+Mazhar Khan
+Flutter Developer
