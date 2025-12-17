@@ -1,59 +1,56 @@
-📒 Mini Notes Viewer — Flutter App
+# 📒 Mini Notes Viewer — Flutter App
 
-A clean and minimal Flutter application built as part of Artificizen’s Flutter Assignment.
-This app demonstrates clean architecture, async programming, error handling, and state management using Provider.
+A clean and minimal Flutter application built as part of **Artificizen’s Flutter Assignment**.  
+This app demonstrates clean architecture, async programming, error handling, and state management using **Provider**.
 
-🚀 Features
+---
 
-Fetches notes from a simulated service
+## 🚀 Features
 
-Artificial delay (1–2 seconds)
+- Fetches notes from a simulated service
+- Artificial delay (1–2 seconds)
+- 20% chance of simulated failure
+- Handles all app states:
+  - ✅ Loading
+  - ❌ Error + Retry
+  - 📄 Notes list
+- Refresh button in AppBar
+- Clean project structure
+- Responsive UI with Material 3
 
-20% chance of simulated failure
+---
 
-Handles all app states:
+## 📁 Project Structure
 
-✅ Loading
-
-❌ Error + Retry
-
-📄 Notes list
-
-Refresh button in AppBar
-
-Clean project structure
-
-Responsive UI with Material 3
-
-📁 Project Structure
+```text
 lib/
-├── core/
-│ └── theme/
-│ └── app_theme.dart
-│
-├── models/
-│ └── note.dart
-│
-├── services/
-│ └── notes_service.dart
-│
-├── providers/
-│ └── notes_provider.dart
-│
-├── screens/
-│ └── notes_screen.dart
-│
-├── widgets/
-│ └── note_tile.dart
-│
-└── main.dart
+ ├── core/
+ │    └── theme/
+ │         └── app_theme.dart
+ │
+ ├── models/
+ │    └── note.dart
+ │
+ ├── services/
+ │    └── notes_service.dart
+ │
+ ├── providers/
+ │    └── notes_provider.dart
+ │
+ ├── screens/
+ │    └── notes_screen.dart
+ │
+ ├── widgets/
+ │    └── note_tile.dart
+ │
+ └── main.dart
 
 🧠 State Management
 
 This project uses Provider because it is lightweight and ideal for small to medium-sized apps.
-Provider gives clean separation between UI and business logic, making the code modular and testable.
+Provider ensures clean separation between UI and business logic, making the code modular and testable.
 
-🛠️ Tech Used
+🛠️ Tech Stack
 
 Flutter (Material 3)
 
@@ -63,8 +60,9 @@ Dart
 
 📸 Screenshots
 
-assets/screenshots/loading.jpeg
-assets/screenshots/error.jpeg
+
+assets/screenshots/loading.jpeg 
+assets/screenshots/error.jpeg 
 assets/screenshots/list.jpeg
 
 🧪 How to Run
@@ -76,15 +74,15 @@ git clone https://github.com/Mazharkhan123c/mini_notes_task_app.git
 
 Move into the project folder:
 
-cd mini_notes_viewer
+cd mini_notes_task_app
 
 
-Install packages:
+Install dependencies:
 
 flutter pub get
 
 
-Run:
+Run the app:
 
 flutter run
 
