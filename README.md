@@ -57,12 +57,11 @@ Dart
 
 ## 📸 Screenshots
 
-![Loading](assets/screenshots/loading.jpeg)
-
-![Error](assets/screenshots/error.jpeg)
-
-![List](assets/screenshots/list.jpeg)
-
+<p align="center">
+  <img src="assets/screenshots/list.jpeg" width="260" />
+  <img src="assets/screenshots/loading.jpeg" width="260" />
+  <img src="assets/screenshots/error.jpeg" width="260" />
+</p>
 
 ## 🧪 How to Run
 
