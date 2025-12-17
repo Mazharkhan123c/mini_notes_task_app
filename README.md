@@ -42,13 +42,14 @@ lib/
  │    └── note_tile.dart
  │
  └── main.dart
+ ```
+ ## 🧠 State Management
 
-🧠 State Management
 
 This project uses Provider because it is lightweight and ideal for small to medium-sized apps.
 Provider ensures clean separation between UI and business logic, making the code modular and testable.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Flutter (Material 3)
 
@@ -56,14 +57,15 @@ Provider (State Management)
 
 Dart
 
-📸 Screenshots
+## 📸 Screenshots
 
 
-assets/screenshots/loading.jpeg 
-assets/screenshots/error.jpeg 
-assets/screenshots/list.jpeg
+![Loading](assets/screenshots/loading.jpeg)
+![Error](assets/screenshots/error.jpeg)
+![List](assets/screenshots/list.jpeg)
 
-🧪 How to Run
+
+## 🧪 How to Run
 
 Clone the repository:
 
@@ -71,20 +73,20 @@ git clone https://github.com/Mazharkhan123c/mini_notes_task_app.git
 
 
 Move into the project folder:
-
+```text
 cd mini_notes_task_app
-
+```
 
 Install dependencies:
-
+```text
 flutter pub get
-
+```
 
 Run the app:
-
+```text
 flutter run
-
-📄 Assignment Requirement Summary
+```
+## 📄 Assignment Requirement Summary
 
 This application was built according to the Artificizen Flutter assessment requirements:
 
@@ -100,7 +102,7 @@ Refresh capability
 
 State management with clean architecture
 
-📘 Submission Explanation
+## 📘 Submission Explanation
 
 I used Provider for state management because it is lightweight, easy to understand, and well-suited for small to medium-sized Flutter applications.
 The app handles loading, success, and error states using a centralized provider, allowing the UI to react automatically to state changes.
@@ -108,7 +110,8 @@ A simulated notes service was implemented with an artificial delay and a random 
 Error states are displayed with a clear message and a retry option, ensuring a smooth user experience.
 Additionally, the project follows a clean and modular structure with centralized theming using Material 3 for better maintainability and scalability.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Mazhar Khan
+**Mazhar Iqbal**
+
 Flutter Developer
