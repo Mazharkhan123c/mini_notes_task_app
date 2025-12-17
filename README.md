@@ -58,10 +58,10 @@ Dart
 
 📸 Screenshots
 
+![list](https://github.com/user-attachments/assets/3072bc1f-b198-406c-b667-b857f5baa335)
+![loading](https://github.com/user-attachments/assets/288d31fa-7543-401f-b2a1-edd77eed9b20)
+![error](https://github.com/user-attachments/assets/ea1a3364-9f7c-42fd-a801-b76939c4ce5c)
 
-assets/screenshots/loading.jpeg 
-assets/screenshots/error.jpeg 
-assets/screenshots/list.jpeg
 
 🧪 How to Run
 
