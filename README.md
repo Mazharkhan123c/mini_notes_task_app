@@ -3,7 +3,6 @@
 A clean and minimal Flutter application built as part of **Artificizen’s Flutter Assignment**.  
 This app demonstrates clean architecture, async programming, error handling, and state management using **Provider**.
 
----
 
 ## 🚀 Features
 
@@ -18,7 +17,6 @@ This app demonstrates clean architecture, async programming, error handling, and
 - Clean project structure
 - Responsive UI with Material 3
 
----
 
 ## 📁 Project Structure
 
