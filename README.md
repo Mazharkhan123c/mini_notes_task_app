@@ -66,10 +66,9 @@ Dart
 ## 🧪 How to Run
 
 Clone the repository:
-
+```text
 git clone https://github.com/Mazharkhan123c/mini_notes_task_app.git
-
-
+```
 Move into the project folder:
 ```text
 cd mini_notes_task_app
