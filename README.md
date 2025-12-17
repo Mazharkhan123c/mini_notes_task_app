@@ -44,8 +44,6 @@ lib/
  └── main.dart
  ```
  ## 🧠 State Management
-
-
 This project uses Provider because it is lightweight and ideal for small to medium-sized apps.
 Provider ensures clean separation between UI and business logic, making the code modular and testable.
 
@@ -59,9 +57,10 @@ Dart
 
 ## 📸 Screenshots
 
-
 ![Loading](assets/screenshots/loading.jpeg)
+
 ![Error](assets/screenshots/error.jpeg)
+
 ![List](assets/screenshots/list.jpeg)
 
 
@@ -76,7 +75,6 @@ Move into the project folder:
 ```text
 cd mini_notes_task_app
 ```
-
 Install dependencies:
 ```text
 flutter pub get
@@ -115,3 +113,4 @@ Additionally, the project follows a clean and modular structure with centralized
 **Mazhar Iqbal**
 
 Flutter Developer
+
